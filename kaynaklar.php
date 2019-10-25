@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
+    <link href="css/kaynaklar.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<style type="text/css">
+
+<style>
+    .mainmenubtn {
+      background-color: blue;
+      color: black;
+      border:none;
+      cursor: pointer;
+      padding:50px;
+      margin-top:100px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-child {
+      display: none;
+      background-color:#eeb4b4;
+      min-width: 200px;
+    }
+    .dropdown-child a {
+        color: black;
+      padding: 50px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown:hover .dropdown-child {
+      display: block;
+    }
+  </style>
+	
+<body>
+<div class="ekran1">
+<a href="index.php"><img id="logo" src="butonlar/logo.png"/></a>
+<div class="ekran2" >  
+<div class="aradiv" ></div>
+    <div class="solmenu">
+     <a href="dersler.php"><img src="butonlar/dersler.png"/></a><br><br>
+     <a href="kaynaklar.php"><img src="butonlar/kaynaklar.png"/></a><br><br>
+     <a href="teknoloji.php"><img src="butonlar/teknoloji.png"/></a><br><br>
+     <a href="paylasimyap.php"><img src="butonlar/paylaşım yap.png"/></a><br><br>
+    </div>
+   <div class="icerik" style="height: 588px;width:855px; overflow-x: hidden; overflow-y: scroll;">
+    <div class="dropdown">
+    <button class="mainmenubtn">KAYNAKLAR</button>
+    <div class="dropdown-child">
+      <a href="bilisimdersleri.php">BİLİŞİM DERSLERİ</a>
+      <a href="isletmedersleri.php">İŞLETME DERSLERİ</a>
+      </div>
+  </div>
+    </div>
+    <div class="sagmenu">
+     <a href="uyeol.php"><img src="butonlar/uye.png"/></a><br><br>
+    <a href="duyuru.php"><img src="butonlar/duyurular.png"/></a><br><br>
+     <a href="gorusoneri.php"><img src="butonlar/gorusveoneri.png"/></a><br><br>
+    </div>
+    
+</div>
+<a href="https://www.facebook.com/Binotnet-446051389498171/?modal=admin_todo_tour"><img id="resim1" src="butonlar/face.png"/></a>
+<a href="https://twitter.com/binotnet"><img id="resim2" src="butonlar/twit.png"/></a>
+<a href="hakkimizda.php"><img id="resim3" src="butonlar/hakkımızda.png"/></a>
+<a href="iletisim.php"><img id="resim4" src="butonlar/iletişim.png"/></a>
+</div>
+</body>
+</html>
